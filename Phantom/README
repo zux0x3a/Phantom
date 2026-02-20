@@ -1,1 +1,18 @@
+The following repository has two subfolders:
 
+V1 - Basic loader to execute a DLL payload
+V2 - Fully reflective loader designed for evasion purposes (in-memory execution)
+
+How to use it manually:
+
+Upload or place the ASPX file in any IIS web root folder.
+
+Access the page through your browser using: page.aspx?k=SECRET
+
+Upload or provide your payload in Base64 format and make sure to specify the exported function in the function export field.
+
+Execute and wait.
+
+Can I use it with C2?
+
+I released another tool called "PhantomLink" to perform that task. You can use it for lateral movement or host infection.
