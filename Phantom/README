@@ -7,7 +7,7 @@ How to use it manually?
 
 1. Upload or place the ASPX file in any IIS web root folder.
 
-2. Access the page through your browser using: page.aspx?k=SECRET
+2. Access the page through your browser using: page.aspx?k=SECRET and configure the host-pinning. 
 
 3. Upload or provide your payload in Base64 format and make sure to specify the exported function in the function export field.
 
